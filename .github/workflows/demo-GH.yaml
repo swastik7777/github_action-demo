@@ -1,0 +1,8 @@
+name: "Demo workflow"
+on: push
+jobs:
+  job-1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Print Hello world"
+        run: echo "Hello world"
